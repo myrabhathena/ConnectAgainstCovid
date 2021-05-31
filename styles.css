@@ -1,0 +1,143 @@
+body {
+  font-family: Trebuchet MS;
+  background: #13223b;
+  color: white;
+}
+
+.outer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.headerLeft {
+  padding-left: 20px;
+}
+
+.headerLeft h1 {
+  color: #13223b;
+}
+
+.headerLeft p{
+  color: #ff0066;
+}
+
+.headerRight {
+  padding-right: 100px;
+}
+
+.inner {
+  background-color: #ff0066;
+  color: white;
+  border-radius: 5px;
+  padding: 0.05px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.main {
+  background-color: #336699;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.main h1 {
+  color: white;
+  font-size: 350%;
+}
+
+.subheader {
+  color: #ff0066;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+#townsmanPic {
+  height: 500px;
+  wide: auto;
+}
+
+#beverlyPic {
+  width: 32%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subheader p {
+  color: white;
+}
+
+.outer2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.expLeft {
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 20px;
+  color: white;
+}
+
+.expRight {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: #13223b;
+}
+
+.expRight h1 {
+  text-align: center;
+}
+
+.outer3 {
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.TAheader {
+  color: #13223b;
+}
+
+.TAheader h1 {
+  color: #ff0066;
+  font-size: 350%;
+}
+
+.takeAction {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.step {
+  background-color: #336699;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#mom {
+  padding-top: 10px;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
